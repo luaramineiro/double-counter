@@ -2,4 +2,10 @@
 
 <div align="center"> Counter two variables simultaneously. Flutter project. </div>
 
-![Screenshot](screenshot/image.jpeg)
+### Screenshot
+
+![Screenshot](screenshot/image.jpeg) {
+width: 45%;
+border: none;
+background: none;
+}

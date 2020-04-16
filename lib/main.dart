@@ -7,6 +7,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Contador',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
       ),
@@ -51,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Contador A: $_counterA',
+              'Contador A = $_counterA',
               style: TextStyle(
                   color: Colors.orange,
                   fontWeight: FontWeight.bold,
@@ -59,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(height: 8),
             Text(
-              'Contador B: $_counterB',
+              'Contador B = $_counterB',
               style: TextStyle(
                   color: Colors.amber,
                   fontWeight: FontWeight.bold,
