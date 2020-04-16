@@ -4,8 +4,4 @@
 
 ### Screenshot
 
-![Screenshot](screenshot/image.jpeg) {
-width: 45%;
-border: none;
-background: none;
-}
+<img src="screenshot/image.jpeg" width="40%"/>
